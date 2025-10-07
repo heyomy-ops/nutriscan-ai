@@ -253,6 +253,7 @@ export default function App() {
   }, [surveyHistory, isFirebaseReady]);
 
   // src/App.jsx
+  // hello
 
   const getMealInsights = async () => {
     if (!meals || meals.length === 0) return;
